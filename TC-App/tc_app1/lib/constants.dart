@@ -6,6 +6,7 @@ const kTextColor = Color(0xFF12153D);
 const kTextLightColor = Color(0xFF9A9BB2);
 const kFillStarColor = Color(0xFFFCC419);
 
+const kDefaultHeight = 20.0;
 const kDefaultPadding = 20.0;
 const KAppBarHeight = kToolbarHeight;
 
@@ -18,7 +19,8 @@ final List<String> images = [
   'assets/images/1.jpg',
   'assets/images/2.jpg',
   'assets/images/3.jpg',
-  'assets/images/4.jpg',
+  'assets/images/4.JPG',
+  'assets/images/5.JPG',
 ];
 const kDefaultShadow = BoxShadow(
   offset: Offset(0, 4),

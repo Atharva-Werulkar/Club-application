@@ -19,7 +19,7 @@ class ImageSlider extends StatelessWidget {
           decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(10.0),
             image: DecorationImage(
-              image: AssetImage('assets/images/background.jpg'),
+              image: AssetImage(image),
               fit: BoxFit.fill,
             ),
           ),

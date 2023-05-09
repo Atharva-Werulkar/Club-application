@@ -25,7 +25,7 @@ class ClubDetail extends StatelessWidget {
             style: TextStyle(fontSize: 35, color: Colors.black),
           ),
         ),
-        const SizedBox(height: kDefaultPadding / 5),
+        const SizedBox(height: kDefaultHeight / 5),
 
         //----Club Discreption----//
 
@@ -38,18 +38,6 @@ class ClubDetail extends StatelessWidget {
               fontSize: 20,
               color: Color(0xFF737599),
             ),
-          ),
-        ),
-
-        Padding(
-          padding: const EdgeInsets.all(kDefaultPadding),
-          child: Column(
-            children: const <Widget>[
-              Text(
-                'Members',
-                style: TextStyle(fontSize: 35, color: Colors.black),
-              )
-            ],
           ),
         ),
       ],

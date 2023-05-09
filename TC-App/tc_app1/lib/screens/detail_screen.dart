@@ -3,7 +3,6 @@ import 'package:tc_app1/screens/components/background.dart';
 import 'package:tc_app1/constants.dart';
 import 'components/ClubDetail.dart';
 import 'components/ClubMembers.dart';
-
 import 'components/Heading.dart';
 import 'components/ImageSlider.dart';
 
@@ -20,39 +19,39 @@ class Body extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: <Widget>[
           SizedBox(
-            height: KAppBarHeight * 1.94,
+            height: KAppBarHeight * 1.90,
           ),
 
           //----Background Image----//
-
           BackdropAndRating(size: size),
-
-          const SizedBox(height: kDefaultPadding),
+          const SizedBox(height: kDefaultHeight),
 
           //----Club Detail----//
           ClubDetail(
             name: clubName,
             description: description,
           ),
+          SizedBox(
+            height: kDefaultHeight,
+          ),
+          Headings(heading: 'Members'),
 
           //----Club Members----//
           ClubMembers(),
 
           SizedBox(
-            height: 50,
+            height: kDefaultHeight,
           ),
 
           Headings(heading: 'Achivements'),
           SizedBox(
-            height: 30,
+            height: kDefaultHeight,
           ),
 
           //----Image Carousel Slider----//
-
           ImageSlider(images: images),
-
           SizedBox(
-            height: 50,
+            height: kDefaultHeight,
           ),
         ],
       ),
