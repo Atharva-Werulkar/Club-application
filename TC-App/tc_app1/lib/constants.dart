@@ -16,11 +16,11 @@ final String description =
     'Non pariatur eiusmod esse eiusmod qui amet non in nisi dolor eu nostrud enim. Veniam qui do tempor esse proident culpa laboris. Sit commodo aute cupidatat ad. Laborum eu eiusmod ex ipsum ipsum eiusmod dolore laborum. Magna labore labore qui amet ex officia. Sint sit anim id id esse adipisicing.';
 
 final List<String> images = [
-  'assets/images/1.jpg',
-  'assets/images/2.jpg',
-  'assets/images/3.jpg',
-  'assets/images/4.JPG',
-  'assets/images/5.JPG',
+  'https://drive.google.com/uc?export=view&id=1QKwdy_0NGoCNtieahBOYDz95WWlV44W9',
+  'https://drive.google.com/uc?export=view&id=1QNkICjoqx2Ev5mtYXqPf3wPFLDWApEOa',
+  'https://drive.google.com/uc?export=view&id=1QMFdNxlEijlNGTAwiXSXClrGUw-B-y5Y',
+  'https://drive.google.com/uc?export=view&id=1QKut-BEZa56Pt24_44GFNGzdLhfqM9Rx',
+  'https://drive.google.com/uc?export=view&id=1QWy_PgGJjgIId_BLaDhJ-vmdFO4KVFGW',
 ];
 const kDefaultShadow = BoxShadow(
   offset: Offset(0, 4),

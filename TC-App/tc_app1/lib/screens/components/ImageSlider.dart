@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-
 import 'package:carousel_slider/carousel_slider.dart';
+
 
 class ImageSlider extends StatelessWidget {
   const ImageSlider({
@@ -19,7 +19,8 @@ class ImageSlider extends StatelessWidget {
           decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(10.0),
             image: DecorationImage(
-              image: AssetImage(image),
+              image: NetworkImage(image),
+              //AssetImage(image),
               fit: BoxFit.fill,
             ),
           ),
